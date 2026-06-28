@@ -1,4 +1,4 @@
-import 'package:local_event_finder/domain/entities/event.dart';
+import '../../domain/entities/event.dart';
 
 class EventModel {
   EventModel._();

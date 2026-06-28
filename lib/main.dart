@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:local_event_finder/data/service/event_service.dart';
-import 'package:local_event_finder/presentation/provider/event_provider.dart';
-import 'package:local_event_finder/presentation/screen/event_list_screen.dart';
+import 'package:local_even_finder/presentation/provider/event_provider.dart';
+import 'package:local_even_finder/presentation/screen/event_list_screen.dart';
 import 'package:provider/provider.dart';
+
+import 'data/service/event_service.dart';
 
 void main() {
   runApp(const MyApp());

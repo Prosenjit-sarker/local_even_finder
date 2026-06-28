@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:local_event_finder/data/service/event_service.dart';
-import 'package:local_event_finder/domain/entities/event.dart';
+import '../../data/service/event_service.dart';
+import '../../domain/entities/event.dart';
 
 class EventProvider extends ChangeNotifier {
   EventProvider(this._eventService);

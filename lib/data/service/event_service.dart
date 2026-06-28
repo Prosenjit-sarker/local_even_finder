@@ -1,5 +1,5 @@
-import 'package:local_event_finder/data/models/event_model.dart';
-import 'package:local_event_finder/domain/entities/event.dart';
+import '../../domain/entities/event.dart';
+import '../model/event_model.dart';
 
 class EventService {
   Future<List<Event>> fetchEvents() async {
